@@ -14,7 +14,7 @@ def load_data(path):
     return df
 
 # First some MPG Data Exploration
-mpg_df_raw = load_data(path="./data/mpg.csv")
+mpg_df_raw = load_data(path="./data/processed/mpg.csv")
 mpg_df = deepcopy(mpg_df_raw)
 
 # Add title and header
